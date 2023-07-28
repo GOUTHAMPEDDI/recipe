@@ -13,7 +13,7 @@ In this project, we have four layers-
 * **Model** - Here the classes recipe, user, authentication token, comment is defined and the mappings were given to them accordingly.
 
 >## Data Structure used in my project
-In our project [List](https://www.geeksforgeeks.org/internal-working-of-arraylist-in-java/) and the methods involved with List, like add method for posting new Recipe, remove method for deleting a Recipe, and linear search function for searching a user in Java by specific userId.
+In our project [List](https://www.geeksforgeeks.org/internal-working-of-list-in-java/) and the methods involved with List, like add method for posting new Recipe, remove method for deleting a Recipe, and linear search function for searching a user in Java by specific userId.
 >## Project Summary
 Our project basically maintains the upcoming recipe information which includes -
 * RecipeId
@@ -23,5 +23,18 @@ Our project basically maintains the upcoming recipe information which includes -
 * Commenter
 * RecipeOwner
 
-You can create a recipe, read a recipe information, read by specific id, update recipe of specific recipeId, create a comment on a particular recipe, delete comment on recipe, delete a recipe by it's recipeId by api calls.
-The above functions are performed only by successfull authorisation of a particular user.
+The above project implements a Recipe Management in which the endpoints provided are:-
+
+* SignUp user
+* SignIn user
+* Add recipe
+* Update recipe
+* Get all recipies
+* Delete recipe by Id
+* Get recipe by Id
+* Add comment on recipe
+* Get all comments on recipe
+* Delete comment by Id
+* Sign out user
+
+* The above operations are performed only by successfull authorisation of a particular user.
