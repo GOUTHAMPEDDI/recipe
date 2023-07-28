@@ -14,7 +14,13 @@ In this project, we have four layers-
 * **Repository** - Here database is stored, for which I have used arrayList. In the database layer, CRUD operations are performed.
 * **Service** -The business layer handles all the business logic. It consists of service classes and uses services provided by data access layers.
 * **Model** - Here the classes recipe, user, authentication token, comment is defined and the mappings were given to them accordingly.
-
+1. The user at client side sends a request to the application through the API endpoints.
+2. The API receives the request and sends it to the appropriate controller method.
+3. The controller method makes a call to the method in service class.
+4. The method in service class builds logic and retrieves or modifies data from the database, which is in turn given to controller class
+5. The controller method returns a response to the API.
+6. The API sends the response back to the user.
+   
 >## Data Structure used in my project
 In our project [List](https://www.geeksforgeeks.org/internal-working-of-list-in-java/) and the methods involved with List, like add method for posting new Recipe, remove method for deleting a Recipe, and linear search function for searching a user in Java by specific userId.
 >## Project Summary
@@ -48,3 +54,23 @@ The above project implements a Recipe Management in which the endpoints provided
 * Set up the database configuration in the application.properties file.
 * Run the application using Maven or your preferred IDE.
 * Access the API endpoints using Swagger UI by navigating to the appropriate URL (e.g., `http://localhost:8080/swagger-ui.html`).
+
+## Author
+
+👤 **Goutham Peddi**
+
+* GitHub: [Goutham Peddi](https://gist.github.com/GOUTHAMPEDDI)
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page]("url").
+    
+---
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+    
+---
