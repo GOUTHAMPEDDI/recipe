@@ -24,3 +24,4 @@ Our project basically maintains the upcoming recipe information which includes -
 * RecipeOwner
 
 You can create a recipe, read a recipe information, read by specific id, update recipe of specific recipeId, create a comment on a particular recipe, delete comment on recipe, delete a recipe by it's recipeId by api calls.
+The above functions are performed only by successfull authorisation of a particular user.
