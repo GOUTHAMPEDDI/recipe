@@ -3,6 +3,9 @@
 >### Framework Used 
 * [SpringBoot](javatpoint.com/spring-boot-tutorial)
 
+>## Database
+* [MySQL](https://www.mysql.com/downloads/)
+
 >### Language Used
 * [Java](https://www.java.com/en/download/help/whatis_java.html)
 >## Data flow
@@ -15,7 +18,7 @@ In this project, we have four layers-
 >## Data Structure used in my project
 In our project [List](https://www.geeksforgeeks.org/internal-working-of-list-in-java/) and the methods involved with List, like add method for posting new Recipe, remove method for deleting a Recipe, and linear search function for searching a user in Java by specific userId.
 >## Project Summary
-Our project basically maintains the upcoming recipe information which includes -
+The Recipe Management system is designed to allow users to store, manage and perform CRUD operations on different recipe data. It provides a RESTful API for interacting with various recipies and users. The application is built using Spring Boot and uses MySQL as the database for storing recipe information. The API endpoints can be explored and tested using Swagger UI.This project basically maintains the upcoming recipe information which includes -
 * RecipeId
 * RecipeName
 * RecipeIngredients
@@ -38,3 +41,10 @@ The above project implements a Recipe Management in which the endpoints provided
 * Sign out user
 
 * The above operations are performed only by successfull authorisation of a particular user.
+## Installation and Usage
+
+* Clone the repository to your local machine.
+* Make sure you have Java, Maven, and MySQL installed.
+* Set up the database configuration in the application.properties file.
+* Run the application using Maven or your preferred IDE.
+* Access the API endpoints using Swagger UI by navigating to the appropriate URL (e.g., `http://localhost:8080/swagger-ui.html`).
